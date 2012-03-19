@@ -1,3 +1,0 @@
-# title: Update Handy Ant instances 
-# so: all
-To update handy ants.

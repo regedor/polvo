@@ -1,3 +1,0 @@
-# title: Install GB environment
-# so: all
-Coisas
