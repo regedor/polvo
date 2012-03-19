@@ -65,6 +65,5 @@ tmtags
 .*.sw[a-z]
 *.un~
 
-# Ruby Gem files
-*.gem
-Gemfile.lock
+# Polvo
+/Plugins/*

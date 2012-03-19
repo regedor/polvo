@@ -1,0 +1,3 @@
+# title: Configurations
+# so: all
+Several useful scripts for installing and configuring software on your amazing computer.

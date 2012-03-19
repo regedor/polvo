@@ -1,0 +1,15 @@
+#!/bin/bash
+source "$UTILS_PROJECT_PATH"/BASHRC/common
+source "$UTILS_PROJECT_PATH"/BASHRC/git
+source "$UTILS_PROJECT_PATH"/BASHRC/ror
+source "$UTILS_PROJECT_PATH"/BASHRC/ror_nerdtree
+
+# Choose bashrc depending on OS
+if [ `uname` == "Darwin" ] ; then
+  BASHRC_PATH="$HOME/.bash_profile" 
+  BASHRC_FILE="mac"
+else    
+  BASHRC_PATH="$HOME/.bashrc"
+  BASHRC_FILE="ubuntu"  
+fi  
+source "$UTILS_PROJECT_PATH"/BASHRC/"$BASHRC_FILE"

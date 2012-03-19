@@ -1,0 +1,3 @@
+# title: Kill it
+# so: all
+Kills the applications that match 'ps -A | grep $1' 
